@@ -1,0 +1,74 @@
+{
+    "Header" : {
+        "Elements" : ":nth-child(1) > :nth-child(1) > .avatar > svg",
+        "Form" : ":nth-child(2) > :nth-child(1) > .avatar > svg",
+        "Frame" : ":nth-child(3) > :nth-child(1) > .avatar > svg",
+        "Interactions" : ":nth-child(5) > :nth-child(1) > .avatar > svg",
+        "CreateGradebook" : "a[href='/create-gradebook']",
+        "Professors" : "a[href='/gradebooks#']",
+        "AllProfessors" : "a[href='/all-professors']",
+        "CreateProfessor" : "a[href='/create-professor']"
+    },
+
+    "Elements" : {
+        "DynamicProperties" : ":nth-child(1) > .element-list > .menu-list > #item-8 > .text",
+        "EnebleAfter" :  "#enableAfter"
+    },
+
+    "Form": {
+        "PracticeForm": ":nth-child(2) > .element-list > .menu-list > #item-0 > .text",
+        "LastName": "#lastName",
+        "Password": "#password",
+        "ConfirmedPassword": "#passwordConfirmation",
+        "Email":"#email",
+        "CheckBox": "termsAndConditions",
+        "Submit": "button[type='submit']"
+    },
+
+    "PracticeForm" : {
+        "FirstName": "#firstName",
+        "LastName": "#lastName",
+        "Email":"#userEmail",
+        "Gender" : "#genterWrapper > .col-md-9 > :nth-child(1) > .custom-control-label",
+        "Mobile":"#userNumber",
+        "Hobbies":"#hobbiesWrapper > .col-md-9 > :nth-child(1)",
+        "Submit": "#submit"
+    },
+
+    "Frame" : {
+        "Frames" : ":nth-child(3) > .element-list > .menu-list > #item-2 > .text",
+        "Professor" : "#professor",
+        "Submit": ".btn"
+    },
+
+    "Interactions" : {
+        "Sortable" : ":nth-child(5) > .element-list > .menu-list > #item-0 > .text",
+        "Grid" : "#demo-tab-grid",
+        "List" : "#demo-tab-list"
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

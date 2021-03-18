@@ -9,6 +9,7 @@
   "author": "Igor",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^6.8.0"
+    "cypress": "^6.8.0",
+    "faker": "^5.4.0"
   }
 }
